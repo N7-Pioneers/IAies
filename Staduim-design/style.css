@@ -1,0 +1,218 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.stad {
+    background-color: #fff;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    width: 500px;
+    /* height: 500px; */
+}
+img {
+    width: 500px;
+    /* height: 500px; */
+
+}
+
+img {
+    display: hidden;
+}
+
+a {
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    cursor: pointer;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    font-size: 32px;
+    font-weight: bolder;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+a:hover {
+    transform: scale(1.2);
+    color: rgb(8, 81, 81);
+}
+
+
+.hvr a {
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.zone-1 span{
+    position: absolute;
+    background: transparent;
+    width: 180px;
+    height: 60px;
+    top: 148px;
+    left: 160px;
+}
+.zone-2 span{
+    position: absolute;
+    background: transparent;
+    width: 180px;
+    height: 60px;
+    top: 315px;
+    left: 160px;
+}
+.zone-3 span{
+    position: absolute;
+    background: transparent;
+    width: 180px;
+    height: 20px;
+    top: 99px;
+    left: 160px;
+    font-size: 24px;
+}
+.zone-4 span{
+    position: absolute;
+    background: transparent;
+    width: 180px;
+    height: 20px;
+    top: 372px;
+    left: 160px;
+    font-size: 24px;
+}
+.zone-5 {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 65px solid transparent;
+    border-right: 35px solid transparent;
+    border-bottom: 68px solid transparent;
+    top: 328px;
+    left: 340px;
+    rotate: 85deg;
+   cursor: pointer;
+}
+.zone-6 {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 65px solid transparent;
+    border-right: 35px solid transparent;
+    border-bottom: 68px solid transparent;
+    top: 338px;
+    left: 80px;
+   cursor: pointer;
+   rotate: 140deg;
+}
+.zone-7 {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 65px solid transparent;
+    border-right: 35px solid transparent;
+    border-bottom: 68px solid transparent;
+    top: 80px;
+    left: 320px;
+   cursor: pointer;
+   rotate: -40deg;
+}
+.zone-8 {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 65px solid transparent;
+    border-right: 35px solid transparent;
+    border-bottom: 68px solid transparent;
+    top: 103px;
+    left: 60px;
+   cursor: pointer;
+   rotate: -92deg;
+}
+.zone-9 {
+    position: absolute;
+    top: 188px;
+    left: 17px;
+    border-bottom: 100px solid transparent;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    height: 25px;
+    width: 120px;
+   rotate: 90deg;
+}
+.zone-10 {
+    position: absolute;
+    top: 188px;
+    left: 315px;
+    border-bottom: 100px solid transparent;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    height: 25px;
+    width: 120px;
+   rotate: -90deg;
+}
+
+.zone-10 a, .zone-9 a {
+    width: 100px;
+    height: 120px;
+    display: inline-block;
+    cursor: pointer;
+    align-self: center;
+
+}
+.zone-10 a span{
+    position: absolute;
+    rotate: 90deg;
+    left: 50px;
+    top: 98px;
+}
+.zone-9 a span{
+    position: absolute;
+    rotate: -90deg;
+    left: 50px;
+    top: 98px;
+}
+.zone-8 a, .zone-7 a, .zone-6 a, .zone-5 a {
+
+    width: 80px;
+    height: 35px;
+}
+
+.zone-5 a span{
+    background: transparent;
+    position: absolute;
+    rotate: -86deg;
+    top: 32px;
+    left: -26px;
+}
+
+.zone-6 a span{
+    background: transparent;
+    position: absolute;
+    top: 30px;
+    left: -28px;
+    rotate: 218deg;
+}
+
+.zone-7 a span{
+    background: transparent;
+    position: absolute;
+    top: 35px;
+    left: -35px;
+    rotate: 37deg;
+}
+
+.zone-8 a span {
+    background: transparent;
+    position: absolute;
+    top: 26px;
+    left: -30px;
+    rotate: 90deg;
+}
